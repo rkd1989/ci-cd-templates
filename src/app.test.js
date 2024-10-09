@@ -6,7 +6,7 @@ describe("Test endpoint responses", () => {
   it("gets the test endpoint", async () => {
     const response = await request.get("/test");
     expect(response.status).toBe(200);
-    expect(response.text).toBe("Hello Worlddddddd");
+    expect(response.text).toBe("Hello World");
   });
 });
 // Run the test with the following command:
